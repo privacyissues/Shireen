@@ -1,0 +1,46 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 130% 210%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hi{
+    color: antiquewhite;
+}
+
+#carouselExampleAutoplaying{
+    display: flex;
+    height: auto;
+    width: 400px;
+    justify-content: center;
+
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 34px;
+    }
+
+
+.image{
+    display: flex;
+    justify-content: center;
+}
